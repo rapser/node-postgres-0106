@@ -16,9 +16,9 @@ const swaggerOptions={
             version:'1.0.0',
             description:'Employe Api for employee management',
             contact:{
-                name:'Jayaramachandran Augustin',
-                url:'https://whizpath.com',
-                email:'jayaramachandran@whizpath.com'
+                name:'Miguel Angel Rapser',
+                url:'https://www.google.com',
+                email:'migrapser@gmail.com'
             },
             servers:["http://localhost:3000"]
         }

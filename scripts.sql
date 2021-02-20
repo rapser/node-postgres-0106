@@ -1,3 +1,7 @@
+create sequence employee_seq increment 1 start 1;
+create sequence team_seq increment 1 start 1;
+create sequence employee_assignment_seq increment 1 start 1;
+
 create table employee(
 		id integer NOT NULL DEFAULT nextval('employee_seq'),
 		name varchar(50) NOT NULL,
@@ -24,4 +28,4 @@ create table employee_assignment(
 		constraint employe_assignment_cons PRIMARY KEY(id),
 	    constraint fk_employee FOREIGN KEY(employee_id) REFERENCES employee(id),
 	    constraint fk_team FOREIGN KEY(team_id) REFERENCES team(id)
-)
+);

@@ -1,4 +1,4 @@
-# Node.js PostgreSQL Swagger
+# node-postgres-0106
 
 El presente proyecto permite registrar y obtener un usuario.
 

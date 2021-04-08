@@ -1,4 +1,4 @@
-const pool=require('./db');
+const pool=require('./database/db');
 
 exports.createEmployee= async(req,res)=>{
     try {
